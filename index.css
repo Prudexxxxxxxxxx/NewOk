@@ -18,19 +18,22 @@ a{
     text-decoration:none;   
 }
 
+
 .blok1{
     margin:  10px 10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blok2{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 300px;
-    padding-right: 300px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
     opacity: 60%;
-    width: 1000px;
-    height: 200px;
+   max-width: 1000px;
+   max-height: 200px;
 
 }
 
